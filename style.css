@@ -7,6 +7,7 @@ body{
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+
 .nav-container{
   background-color:#40739e;
   display: flex;
@@ -15,14 +16,15 @@ font-family: 'Work Sans', sans-serif;
 }
 .logo{
   padding-right: 600px;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 .menu-item{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   list-style: none;
+  
 }
 .menu-item>li>a{
 text-decoration: none;
@@ -36,7 +38,7 @@ color:white ;
   display: flex;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  height: 120vh;
   background: url(image/background.jpg),linear-gradient(-90deg,#2f3640,#353b48);
   background-position: center;
   background-repeat: no-repeat;
@@ -112,17 +114,27 @@ text-align: left;
 }
 .box{
   background-color: white;
-  padding: 30px;
   border-radius: 10px;
   margin: 5px;
+  height: 150px;
+  width: 150px;
+  padding: 30px;
+   text-align: center;
+   color: black;
 }
+/* .box{ */
+    /* text-align: center;
+    width:150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px; */
+    /* box-shadow:4px 4px 8px gray; */
+
 .img1{
   width: 100px;
-  height: 100px;
-  gap: 3px;
-}
-img{
-  margin: 5px;
+  justify-content: center;
   
 }
 .title-1{
@@ -141,7 +153,7 @@ margin-bottom: 5px;}
 .author{
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 20px;
 }
 .author-img{display: flex;
 align-items: center;
@@ -158,23 +170,56 @@ gap: 20px;
 }
 .appointment-container{display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-around;
 background-image:url(image/background.jpg) ;
 width: 70% ;
 margin: auto;
 border-radius: 10px;
 margin-top: -30px;
-padding: 20px;}
+padding: 20px;
+margin-bottom: 0;}
+
 .call{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .call img{
-  width: 100px;
+  width: 30px;
 }
+.blog-container{
+background: #353b48;
+width: 90%;
+margin: auto;
+text-align: center;
+}
+.blog-container h1{
+  font-size: 55px;
+  margin: 20px;
+}
+.blog-container h1 .blog-title{
+color: red;
+}
+.blog-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.blog-1{
+width: 200px;
+height: 400px;
+margin-bottom: 10px;
+margin-right: 20px;
+}
+.blog-1>img{
+  width: 200px;
+  border-radius: 10px;
+}
+
 footer{
   background-color: black;
+  padding: 30px;
 }
 .footer-section{
   display: flex;
@@ -191,22 +236,34 @@ footer{
   border-radius: 50%;
   background: white;
 }
-footer div hr{
+.line{ display: flex;
+justify-content: center;
+}
+.line hr{
   border-bottom: 2px solid green;
   width: 70%;
   margin-top: 20px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+
 }
+.copy{
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
 .footer-section h3{
   font-size: 16px;
   font-style: normal;
-  font-weight: 200;
-}
-.footer-section p{
-  font-size: 12px;
+  font-weight: 200; }
+
+.footer-section p 
+  {font-size: 12px;
   font-style: normal;
   font-weight: 200;
-}
-footer h5{
+  margin-bottom: 4px;}
+  
 
-}
