@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
 .nav-container{
-  background-color: #1B1464;
+  background-color:#40739e;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -37,7 +37,7 @@ color:white ;
   align-items: center;
   text-align: center;
   height: 100vh;
-  background: url(image/background.jpg),linear-gradient(rgba(87, 96, 111,1.0),rgba(116, 125, 140,1.0));
+  background: url(image/background.jpg),linear-gradient(-90deg,#2f3640,#353b48);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,11 +84,129 @@ color: white;}
 .main-part-1{
   display: flex;
  align-items: center;
- justify-content: space-between;
+ justify-content: space-evenly;
+ background: url(image/footer-bg.png),linear-gradient(45deg,#1e272e,black);
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 20px;
+}
+.content-part{
+width: 50%;
+text-align: left;
 }
 .img-part{
+
+
+}
+.box-1{
+
+}
+.child-1{
   display: flex;
 }
+.child-2{
+  display: flex;
+}
+.box{
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.img1{
+  width: 100px;
+  height: 100px;
+  gap: 3px;
+}
 img{
-  width: 150px;
+  margin: 5px;
+  
+}
+.title-1{
+  color: white;
+font-size: 30px;
+margin-bottom: 5px;
+}
+.description-1{ color: white;
+font-size: 18px;
+margin-bottom: 5px;}
+.list{
+  color: white;
+  width: 50%;
+  font-size: 15px;
+}
+.author{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.author-img{display: flex;
+align-items: center;
+gap: 20px;
+}
+.author-img>img{
+  width: 100px;
+  border-radius: 50%;
+}
+.author hr{
+  border-right: 2px solid white;
+  height: 35px;
+  margin: 15px;
+}
+.appointment-container{display: flex;
+align-items: center;
+justify-content: center;
+background-image:url(image/background.jpg) ;
+width: 70% ;
+margin: auto;
+border-radius: 10px;
+margin-top: -30px;
+padding: 20px;}
+.call{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.call img{
+  width: 100px;
+}
+footer{
+  background-color: black;
+}
+.footer-section{
+  display: flex;
+  color: white;
+  background-color: black;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-media{
+  align-items: center;
+}
+.social-media>img{
+  width: 20px;
+  border-radius: 50%;
+  background: white;
+}
+footer div hr{
+  border-bottom: 2px solid green;
+  width: 70%;
+  margin-top: 20px;
+  margin: auto;
+}
+.footer-section h3{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+}
+.footer-section p{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+}
+footer h5{
+
 }
